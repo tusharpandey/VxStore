@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vxmobilecomm.VXMobileComm" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/action_wishlist"
+        android:icon="@drawable/hearts_small"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_search"/>
+
+</menu>

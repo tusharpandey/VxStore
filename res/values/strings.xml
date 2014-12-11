@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VX Store</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_wishlist">Wishlist</string>
+    <string name="action_search">Search</string>
+    
+    <!-- Splash Screen -->
+    <string name="imagedescription_splash">splash screen image</string>
+    <string name="imagedescription_browseproducts">Browse Products</string>
+    <string name="imagedescription_appname">VX store</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="VXStore">VX Store</string>
+    <string name="Setting">Setting</string>
+    <string name="MyAccount">My Account</string>
+    <string name="Logout">Logout</string>
+    
+    <!-- Category Chips -->
+    
+    <string name="clothes">Clothes</string>
+    <string name="shoes">Shoes</string>
+    <string name="flowers">Flowers</string>
+    <string name="mobiles">Mobiles</string>
+    <string name="laptops">Laptops</string>
+    <string name="books">Books</string>
+    
+    <!-- Error String -->
+    <string name="CrashReport_MailSubject">Subject</string>
+    <string name="CrashReport_MailBody">Body</string>
+    <string name="crash_toast_text">crash report</string>
+    
+</resources>

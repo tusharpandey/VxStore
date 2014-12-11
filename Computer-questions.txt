@@ -1,0 +1,60 @@
+question : overriding and overloading.
+
+question : difference b/w abstraction and interface.
+
+question : what does static variable mean, example required.
+
+question : what is API, example required.
+
+question : what is class and object.
+
+question : what is the benefit of being open source.
+
+question : 
+			void main()
+			{
+				int i=2;
+				clrscr();
+				for(i=0;i<=3;i++){
+					 static int i;
+					 i=i+8;
+				}
+				printf("%d",i);
+				getch();
+			}
+
+			Output: 4  
+			
+QUESTION : Which of the following is not correct about stack?
+
+			-A stack is one form of a data structure. 
+			-Data is stored in stacks using the FILO approach.
+			-Both top and rear end of the stack are accessible 
+			-Storing data in a stack is referred to as a PUSH 
+			View Answer / Hide Answer
+
+			ANSWER - Both top and rear end of the stack are accessible
+
+
+QUESTION : Differentiate between the = symbol , == , equals() ?
+
+QUESTION : When is a switch statement better than multiple if statements
+
+QUESTION : Write Algorithm for binary search?
+	
+QUESTION : why android is famous.
+
+QUESTION : if you have 1000 entries in server, How you will fetch those 1000 entries .
+
+QUESTION : Java was originally invented by
+ 	
+			A. Oracle
+			B. Microsoft
+			C. Novell
+			D. Sun
+			
+QUESTION : 	what is SEO
+
+QUESTION : 	what is SMO
+
+QUESTION : 	Which out of the below is a social networking portal 1. Bing, 2. Yahoo 3. Tumblr

@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+	<style name="AppBaseTheme_noactionbar" parent="Theme.AppCompat.NoActionBar">
+    </style>
+
+	<style name="AppBaseTheme_actionbar" parent="Theme.AppCompat">
+    </style>
+	
+	<!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme_actionbar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+        <style name="Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    </style>
+
+    <style name="Widget.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

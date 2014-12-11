@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.vxappstore"
+    android:id="@+id/main_parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.vxmobilecomm.util.NotifyingScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="?attr/actionBarSize"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/lay_productsData"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_pagetitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/clothing_big" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/materialbackground"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:weightSum="1" >
+
+                        <TextView
+                            android:id="@+id/txtName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".7"
+                            android:textColor="@color/vxapp_color"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:text="699 rs"
+                            android:textColor="@color/vxapp_color"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <RatingBar
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/ratingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:rating="2.0"
+                        android:stepSize="1.0" />
+
+                    <TextView
+                        android:id="@+id/txtdescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/materialbackground"
+                        android:padding="10dp"
+                        android:textColor="@color/vxapp_color"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </com.vxmobilecomm.util.NotifyingScrollView>
+
+            <android.support.v7.widget.Toolbar
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/vxapp_color"
+                android:gravity="center"
+                android:minHeight="?attr/actionBarSize"
+                app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:minHeight="?attr/actionBarSize" >
+
+                <LinearLayout
+                    android:id="@+id/lay_bottombutton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/shadow_intop"
+                    android:orientation="horizontal"
+                    android:weightSum="1" >
+
+                    <ImageView
+                        android:id="@+id/img_addtocart"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_weight=".20"
+                        android:src="@drawable/addtocart" />
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/img_share"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_weight=".20"
+                        android:src="@drawable/share" />
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/img_email"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_weight=".20"
+                        android:src="@drawable/email" />
+
+                    <Button
+                        android:id="@+id/btn_buy"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight=".40"
+                        android:background="@color/vxapp_color"
+                        android:paddingTop="5dp"
+                        android:text="Buy Now"
+                        android:textColor="@color/selector_fortextview_white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:background="#e5e5e5"
+            android:cacheColorHint="@android:color/transparent"
+            android:choiceMode="singleChoice"
+            android:divider="@color/Gray"
+            android:dividerHeight="1px"
+            android:listSelector="@android:color/transparent" />
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>
