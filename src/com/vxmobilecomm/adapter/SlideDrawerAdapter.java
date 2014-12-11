@@ -6,14 +6,10 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.AbsListView;
 import android.widget.BaseAdapter;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.vxappstore.R;
 import com.vxmobilecomm.BaseActivity;
-import com.vxmobilecomm.activity.SplashScreen;
-import com.vxmobilecomm.activity.VXMobileComm;
 import com.vxmobilecomm.util.MySharedPref;
 
 public class SlideDrawerAdapter extends BaseAdapter

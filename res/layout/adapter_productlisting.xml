@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:background="@color/vxapp_color"
         android:scaleType="fitXY"
-        android:src="@drawable/test" />
+        android:src="@drawable/image_2" />
 
     <LinearLayout
         android:layout_width="match_parent"

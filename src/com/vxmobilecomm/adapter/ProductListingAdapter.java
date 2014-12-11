@@ -86,7 +86,7 @@ public class ProductListingAdapter extends BaseAdapter {
 		
 		if ( position % 2 == 0 )
 		{
-			viewHolder_group.image.setImageDrawable(context.getResources().getDrawable(R.drawable.test_2));
+			viewHolder_group.image.setImageDrawable(context.getResources().getDrawable(R.drawable.image_1));
 		}
 
 		setLayoutHeight(viewHolder_group.image);
